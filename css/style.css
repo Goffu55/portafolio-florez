@@ -1,0 +1,52 @@
+/*@font-face{
+  src : url(".../fonts/roboto/Roboto-Italic.ttf");
+  font-family: Roboto;
+}*/
+body{
+
+    background-color: #000;
+}
+
+.container_menu .menu_nav{
+        padding: 50px 50px;
+        background-color:  #f0f5f9;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+
+
+}
+
+ .container_menu .menu_nav .menu_ul{
+   
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+ .container_menu .menu_nav .menu_ul .list{
+
+    text-decoration-line: none;
+
+
+ }
+
+ .container_info .section_me{
+
+    background-color: #c9d6df;
+
+ }
+
+.container_info .studies{
+    background-color: #52616b;
+}
+
+.container_info .extras{
+
+    background-color: #1e2030;
+}
+
+.container_info .contact{
+
+    background-color: #1e2021;
+}
